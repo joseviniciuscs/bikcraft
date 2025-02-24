@@ -3,6 +3,10 @@
   --pto2: #111111;
   --pto3: #2e2e2e;
   --bco1: #ffffff;
+  --bco2: #b2b2b2;
+  --aml1: #ffbf00;
+  --gradiente1: linear-gradient(to right, #ffbf00, #f2a50c);
+  --mrr1: #332200;
 }
 
 body {
@@ -25,4 +29,8 @@ li {
 }
 a {
   text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
 }
