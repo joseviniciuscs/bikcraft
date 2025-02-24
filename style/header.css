@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000000;
+  background-color: var(--pto1);
 }
 
 .logo {
@@ -8,6 +8,7 @@
 }
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -22,8 +23,60 @@
   gap: 20px;
 }
 .header-botao a {
-  color: #ffffff;
+  color: var(--bco1);
   display: inline-block;
   padding: 16px 0px;
   font-size: 1.2rem;
+  position: relative;
+}
+.header-botao a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--bco1);
+  margin-top: 4px;
+  position: absolute;
+}
+.header-botao a:hover:after {
+  width: 100%;
+  transition: 0.3s;
+}
+/* RESPONSIVO */
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 15px;
+  }
+  .header-botao a {
+    background-color: var(--pto2);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 0.875rem;
+  }
+  .header-botao a:hover {
+    background: var(--pto3);
+    border-radius: 4px;
+    padding: 8px 12px;
+  }
+  .header-botao a:hover:after {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 15px;
+  }
+  .header-botao a {
+    background-color: var(--pto2);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 0.875rem;
+  }
+  .header {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header-botao a:hover:after {
+    display: none;
+  }
 }

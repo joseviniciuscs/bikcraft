@@ -1,3 +1,10 @@
+:root {
+  --pto1: #000000;
+  --pto2: #111111;
+  --pto3: #2e2e2e;
+  --bco1: #ffffff;
+}
+
 body {
   margin: 0;
   padding: 0;
