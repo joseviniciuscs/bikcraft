@@ -1,3 +1,13 @@
-@import url(global.css);
-@import url(header.css);
-@import url(introducao.css);
+/* GLOBAL */
+@import url(/style/global/global.css);
+@import url(/style/utilitarios/tipografia.css);
+@import url(/style/global/header.css);
+
+/* HOMES */
+@import url(/style/home/introducao.css);
+@import url(/style/bicicletas/bicicletas-lista.css);
+@import url(/style/home/tecnologia.css);
+
+/* UTILITARIOS */
+@import url(/style/utilitarios/componentes.css);
+@import url(/style/utilitarios/cores.css);

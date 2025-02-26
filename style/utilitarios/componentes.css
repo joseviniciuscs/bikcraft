@@ -1,0 +1,14 @@
+.botao {
+  padding: 16px 32px;
+  background: var(--gradiente1);
+  color: var(--mrr1);
+  border-radius: 4px;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  display: inline-block;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.botao:hover {
+  background: linear-gradient(to right, #ffb900, #e59317);
+}

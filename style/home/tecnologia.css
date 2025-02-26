@@ -1,0 +1,51 @@
+.tecnologia-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+.tecnologia-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tecnologia-imagem img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.tecnologia-introducao {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.tecnologia-introducao h1 {
+  margin-bottom: 32px;
+}
+.tecnologia-introducao p {
+  margin-bottom: 32px;
+}
+
+.tecnologia-introducao a {
+  display: inline-block;
+  margin-bottom: 60px;
+  border-bottom: 4px solid var(--cor-p1);
+}
+.tecnologia-introducao a:hover {
+  border-bottom: 4px solid var(--cor-1);
+  color: var(--cor-1);
+}
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+}
+.tecnologia-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+.tecnologia-vantagens h3 {
+  margin-bottom: 8px;
+}
+
+/* RESPONSIVO */

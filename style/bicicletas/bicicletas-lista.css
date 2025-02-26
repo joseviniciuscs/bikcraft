@@ -1,0 +1,109 @@
+.bicicletas-bg {
+  align-items: center;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.titulo-bicicletas {
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.bicicletas-lista {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  gap: 40px;
+  overflow-x: auto;
+}
+.bicicletas-lista li {
+  min-width: 280px;
+  flex: 1;
+}
+.bicicletas-lista a {
+  display: block;
+}
+ul li img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+ul li a h3 {
+  margin: 10px 0;
+}
+ul li a span {
+  padding-left: 20px;
+}
+ul li a h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+  margin-bottom: 7px;
+  background-color: var(--cor-p1);
+  transition: width 0.2s;
+}
+
+ul li:hover h3::before {
+  width: 20px;
+}
+ul li:hover {
+  background-color: rgba(0, 0, 0, 0); /* Expande o hover */
+  cursor: pointer;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1000px) {
+  .bicicletas-lista li a h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .titulo-bicicletas {
+    margin-top: 20px;
+  }
+  ul li a h3::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    background-color: var(--cor-p1);
+    transition: width 0.2s;
+  }
+
+  ul li:hover h3::before {
+    width: 20px;
+  }
+  ul li:hover {
+    background-color: rgba(0, 0, 0, 0); /* Expande o hover */
+    cursor: pointer;
+  }
+}
+@media (max-width: 750px) {
+  .bicicletas-lista li a h3 {
+    font-size: 1.125rem;
+  }
+  .bicicletas-lista li a span {
+    font-size: 0.875rem;
+  }
+  ul li a h3::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    background-color: var(--cor-p1);
+    transition: width 0.2s;
+  }
+
+  ul li:hover h3::before {
+    width: 20px;
+  }
+  ul li:hover {
+    background-color: rgba(0, 0, 0, 0); /* Expande o hover */
+    cursor: pointer;
+  }
+}
