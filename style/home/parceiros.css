@@ -1,0 +1,23 @@
+.parceiros-grid {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.parceiros-grid li {
+  display: flex;
+  padding: 32px;
+  border-left: 2px solid var(--cor-2);
+  border-bottom: 2px solid var(--cor-2);
+}
+.parceiros-grid img {
+  margin: auto;
+}
+.parceiros-grid li:first-child,
+.parceiros-grid li:nth-child(5) {
+  border-left: none;
+}
+.parceiros-grid li:nth-child(n + 5) {
+  border-bottom: none;
+}

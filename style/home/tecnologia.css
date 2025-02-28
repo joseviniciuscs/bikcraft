@@ -20,11 +20,13 @@
   padding-top: 160px;
   padding-bottom: 160px;
 }
-.tecnologia-introducao h1 {
+.tecnologia-introducao h1,
+p,
+span {
   margin-bottom: 32px;
 }
-.tecnologia-introducao p {
-  margin-bottom: 32px;
+.tecnologia-introducao span {
+  display: inline-block;
 }
 
 .tecnologia-introducao a {
