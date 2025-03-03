@@ -1,3 +1,7 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
 .parceiros-grid {
   max-width: 1400px;
   display: grid;

@@ -3,10 +3,7 @@
   padding-bottom: 120px;
   padding-top: 120px;
 }
-.titulo-bicicletas {
-  margin-left: 100px;
-  margin-bottom: 40px;
-}
+
 .bicicletas-lista {
   display: flex;
   justify-content: center;

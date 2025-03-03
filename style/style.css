@@ -2,12 +2,18 @@
 @import url(/style/global/global.css);
 @import url(/style/utilitarios/tipografia.css);
 @import url(/style/global/header.css);
+@import url(/style/global/footer.css);
 
 /* HOMES */
 @import url(/style/home/introducao.css);
 @import url(/style/bicicletas/bicicletas-lista.css);
 @import url(/style/home/tecnologia.css);
 @import url(/style/home/parceiros.css);
+@import url(/style/home/depoimento.css);
+@import url(/style/home/seguros.css);
 /* UTILITARIOS */
 @import url(/style/utilitarios/componentes.css);
 @import url(/style/utilitarios/cores.css);
+
+/* TERMOS */
+@import url(/style/termos/termos.css);

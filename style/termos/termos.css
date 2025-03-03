@@ -1,0 +1,7 @@
+section {
+  padding: 60px 0px 40px 60px;
+}
+section ul li {
+  margin-bottom: 32px;
+  max-width: 70ch;
+}
