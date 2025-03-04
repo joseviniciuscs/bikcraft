@@ -1,3 +1,13 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* BOTÕES */
 .botao {
   display: inline-block;
   padding: 16px 32px;
@@ -25,13 +35,20 @@
   margin-left: 100px;
   margin-bottom: 40px;
 }
-.container {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background-image: url("../../img/icones/seta.svg");
+}
+.botao.seta:hover:after {
+  transform: translateX(4px);
 }
 /* titulo internas */
 .titulo-bg {

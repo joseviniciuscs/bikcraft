@@ -6,14 +6,20 @@
 
 /* HOMES */
 @import url(/style/home/introducao.css);
-@import url(/style/bicicletas/bicicletas-lista.css);
 @import url(/style/home/tecnologia.css);
 @import url(/style/home/parceiros.css);
 @import url(/style/home/depoimento.css);
-@import url(/style/home/seguros.css);
 /* UTILITARIOS */
 @import url(/style/utilitarios/componentes.css);
 @import url(/style/utilitarios/cores.css);
 
+/* SEGUROS */
+@import url(/style/seguros/seguros.css);
+@import url(/style/seguros/perguntas.css);
+@import url(/style/seguros/vantagens.css);
 /* TERMOS */
 @import url(/style/termos/termos.css);
+/* BICILETAS */
+@import url(/style/bicicletas/bicicletas-lista.css);
+@import url(/style/bicicletas/bicicletas.css);
+@import url(/style/bicicletas/nimbus.css);

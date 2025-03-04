@@ -1,0 +1,26 @@
+.nimbus-bg {
+  background-color: var(--cor-11);
+}
+.nimbus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: start;
+}
+.nimbus-imagem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: start;
+  object-fit: cover;
+}
+.nimbus-imagem img:first-child {
+  width: 100%; /* A primeira imagem ocupa a largura total */
+}
+.nimbus-imagem img {
+  width: calc(
+    50% - 5px
+  ); /* Cada imagem da segunda linha ocupa metade do espaço */
+}

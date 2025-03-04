@@ -7,8 +7,10 @@ h2,
 h3,
 p,
 a,
+ul,
 li,
-blockquote {
+blockquote,
+dd {
   margin: 0;
   padding: 0;
 }
