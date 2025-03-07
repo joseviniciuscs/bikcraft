@@ -1,0 +1,89 @@
+.contato-bg {
+  background: linear-gradient(to bottom, var(--cor-11) 30%, var(--cor-0) 0%);
+}
+.contato-conteudo {
+  background: linear-gradient(to right, var(--cor-12) 40%, var(--cor-0) 0%);
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: 1160px;
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  gap: 40px;
+}
+
+.contato-redes {
+  display: flex;
+  gap: 30px;
+  padding-top: 32px;
+  padding-left: 50px;
+}
+.contato-dados h3 {
+  margin-bottom: 60px;
+}
+.contato-dados li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+.contato-dados li + li {
+  margin-top: 10px;
+}
+.contato-dados li img {
+  display: inline;
+  position: absolute;
+  margin-left: -28px;
+  width: 24px;
+}
+.contato-dados li:nth-child(4) {
+  margin-top: 32px;
+}
+.contato-dados li:last-child {
+  margin-top: 32px;
+}
+.contato-dados ul {
+  padding-left: 30px;
+}
+/* FORMULARIO */
+
+.contato-form {
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.form-row {
+  display: flex;
+  gap: 20px;
+  width: 400px;
+}
+.form-row .form-nome,
+.form-row .form-telefone {
+  flex: 1;
+  min-width: 270px;
+}
+.contato-form label {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+  display: block;
+}
+.contato-form input[type="text"],
+.contato-form input[type="email"],
+.contato-form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: var(--cor-1);
+  border: 1px solid var(--cor-2);
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.contato-form textarea {
+  width: 500px;
+  max-width: 600px;
+  height: 100px;
+  max-height: 220px;
+  box-sizing: border-box;
+}

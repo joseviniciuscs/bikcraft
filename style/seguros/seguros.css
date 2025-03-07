@@ -92,7 +92,12 @@
   padding-top: 180px;
   padding-bottom: 180px;
 }
-
+#nimbus .seguro-conteudo a {
+  margin-bottom: 40px;
+}
+#nimbus .seguro-conteudo h2 {
+  margin-top: 40px;
+}
 @media (max-width: 800px) {
   .seguros {
     grid-template-columns: 1fr;

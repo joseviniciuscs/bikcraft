@@ -94,7 +94,9 @@
   padding-left: 0;
   padding-top: 60px;
 }
-
+#nimbus .nimbus-bicicletas-bg h2 {
+  margin-left: 20px;
+}
 #nimbus .bicicletas-lista {
   display: flex;
   justify-content: center;
