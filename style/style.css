@@ -26,3 +26,11 @@
 
 /* CONTATO  */
 @import url(/style/contato/contato.css);
+/* LOJAS */
+@import url(/style/lojas/lojas.css);
+
+/* FORMULARIO */
+@import url(/style/utilitarios/formulario.css);
+/* ORÇAMENTO */
+
+@import url(/style/orcamento/orcamento.css);

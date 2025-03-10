@@ -87,3 +87,22 @@
   max-height: 220px;
   box-sizing: border-box;
 }
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+  .contato-dados,
+  .contato-form {
+    padding: 20px;
+  }
+  .contato-dados {
+    border-radius: 5px 5px 0 0;
+  }
+  .contato-form {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .contato-redes {
+    margin-bottom: 12px;
+  }
+}

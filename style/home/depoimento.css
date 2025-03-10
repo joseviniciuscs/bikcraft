@@ -24,19 +24,21 @@
   margin-bottom: 32px;
   max-width: 32ch;
 }
+.depoimento p::before,
+.depoimento p::after {
+  font-size: 5rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+
 .depoimento p::before {
   content: "“";
-  font-size: 5rem;
-  color: var(--cor-p2);
-  position: absolute;
-  left: 710px;
-  top: 190px;
+  left: 1200px;
+  top: 610px;
 }
+
 .depoimento p::after {
   content: "”";
-  font-size: 5rem;
-  color: var(--cor-p2);
-  position: absolute;
 }
 
 @media (max-width: 800px) {
