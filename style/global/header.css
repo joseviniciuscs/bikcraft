@@ -39,10 +39,11 @@
   background: var(--cor-1);
   margin-top: 4px;
   position: absolute;
-}
-.header-botao a:hover:after {
-  width: 100%;
   transition: 0.3s;
+}
+.header-botao a:hover:after,
+.header-botao a.ativo::after {
+  width: 100%;
 }
 /* RESPONSIVO */
 @media (max-width: 800px) {

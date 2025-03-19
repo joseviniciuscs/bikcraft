@@ -12,6 +12,7 @@
 /* UTILITARIOS */
 @import url(/style/utilitarios/componentes.css);
 @import url(/style/utilitarios/cores.css);
+@import url(/style/utilitarios/animacao.css);
 
 /* SEGUROS */
 @import url(/style/seguros/seguros.css);

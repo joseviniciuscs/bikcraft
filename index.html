@@ -7,9 +7,9 @@
     qualidade, feitas sob medida para o cliente. Explore o mundo na sua
     velocidade com a Bikcraft." />
     <title>Bickraft - Bicicletas Elétrica</title>
-
-    <link rel="preload" href="/style/style.css" as="style" />
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preload" href="/style/style.min.css" as="style" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/style/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,18 +49,21 @@
     <main class="introducao-bg" arua-label="Principal">
       <div class="introducao-grid">
         <div class="introducao">
-          <h1 class="font-1-xxl cor-0">
+          <h1 class="font-1-xxl cor-0 fadeInLeft" data-anime="200">
             Bicicletas feitas sob medida<span class="cor-p1">.</span>
           </h1>
-          <p class="font-2-l cor-5">
+          <p class="font-2-l cor-5 fadeInLeft" data-anime="400">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para você. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <a class="botao" href="/bicicletas.html">ESCOLHA A SUA</a>
+          <a class="botao fadeInLeft" data-anime="400" href="/bicicletas.html"
+            >ESCOLHA A SUA</a
+          >
         </div>
         <div>
           <img
-            class="img-introducao"
+            class="img-introducao fadeInUp"
+            data-anime="500"
             src="/img/fotos/introducao.jpg"
             alt="bicicleta"
           />
@@ -242,6 +245,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="/js/script.js"></script>
   </body>
   >
